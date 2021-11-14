@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+  overflow-x: hidden;
+}
+.colorIT p{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 23px;
+}
+button {
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+.parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 0 20px 0;
+}
+.parent .parent_lamda {
+  background: orangered;
+  height: 50px;
+  width: 100%;
+}
+.parent_lamda p {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  margin: 0;
+  font-size: 22px;
+  cursor: pointer;
+}
+.child {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+}
+.child p {
+  font-weight: bold;
+}
+.child_why {
+  text-align: center;
+  font-weight: 900;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+.child_why h1 {
+  width: 80%;
+  border-radius: 50px;
+  background: #e4c6aa;
+  box-shadow: 20px 20px 10px rgba(190, 190, 190, 0);
+}
+.child_why span {
+  color: orangered;
+}
+.btn_top button {
+  border-radius: 20px;
+  color: white;
+  background: orangered;
+  width: 280px;
+  padding: 7px 0 7px 0;
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  transition: 400ms ease-out;
+}
+.a_a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.a_a span {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.btn_top button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.experience_it {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+}
+.experience_it p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 30px;
+  font-size: 44px;
+  background: #e4c6aa;
+  box-shadow: 20px 20px 10px rgba(190, 190, 190, 0);
+  border-radius: 50px;
+  width: 80%;
+}
+.icons {
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.icons img{
+  object-fit: cover;
+}
+hr {
+  width: 100%;
+  margin: 40px 0 20px 0;
+}
+.reviews__parents {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+  background: orangered;
+  color: white;
+}
+.reviews__parents button{
+  border: 2px solid white;
+}
+.reviews__parents h1 {
+  font-weight: bold;
+  font-size: 33px;
+}
+.reviews__parents p {
+  text-align: center;
+  font-weight: 900;
+  font-size: 21px !important;
+  margin: 0;
+}
+.rev_each p {
+  text-align: center;
+}
+.reviews_child {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#ghalia{
+  color:white;
+  margin: 0%;
+  padding: 0;
+}
+.swiper {
+  width: 100% !important;
+  padding: 20px 0 20px 0;
+}
+.rev_each {
+  backdrop-filter: blur(20px);
+  width: 300px;
+  height: 600px;
+  margin-right:20px ;
+}
+.revA{
+  background-image: url("../Images/reviews/7.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.revB{
+  background-image: url("../Images/reviews/cc.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.revC{
+  background-image: url("../Images/reviews/cc1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.revD{
+  background-image: url("../Images/reviews/cc2.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rev_each img {
+  border-radius: 100%;
+}
+#arg {
+  font-weight: bold;
+}
+.reviews__parents p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+.sliders {
+  margin-top: 20px;
+}
+.we_jhave {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.we_jhave h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 33px;
+  width: 80%;
+}
+.els {
+  margin-bottom: 20px;
+}
+.forum {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+}
+.forum h2 {
+  font-weight: 900;
+  text-align: center;
+}
+.child_forum {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 700px;
+  border-radius: 50px;
+  padding: 30px 0 30px 0;
+  font-family: "Cairo", sans-serif;
+}
+form .colorIT h3 {
+  color: orangered;
+  animation: Parfume 1s infinite ease-out;
+  margin-bottom: 0;
+}
+@keyframes Parfume {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+form div {
+  margin-bottom: 20px;
+}
+input {
+  width: 400px;
+  border: none;
+  outline: none;
+  background: orangered;
+  border-radius: 20px;
+  padding: 11px;
+  color: white;
+  font-family: "Cairo", sans-serif;
+}
+input::placeholder {
+  color: white;
+  font-weight: bold;
+}
+form button {
+  width: 350px;
+  border: 2px solid orangered;
+  outline: none;
+  border-radius: 20px;
+  color: orangered;
+  transition: 400ms ease-out;
+}
+form button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.process {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.process img {
+  object-fit: cover;
+}
+.process_child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  background: orangered;
+  padding: 10px 0 10px 0;
+}
+footer h2 {
+  margin: 0;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+@media only screen and (max-width: 700px) {
+  .child_forum,
+  .process_child {
+    width: 100%;
+  }
+  .handle_twopics_experience {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .handle_twopics_experience img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+  form {
+    width: 100%;
+    border-radius: 0;
+  }
+  input {
+    width: 300px;
+    border: none;
+    outline: none;
+    background: orangered;
+    border-radius: 20px;
+    padding: 15px 20px 15px 0px;
+    color: white;
+  }
+  input::placeholder {
+    color: white;
+    font-weight: bold;
+  }
+  form button {
+    width: 280px;
+    border: 2px solid orangered;
+    outline: none;
+    border-radius: 20px;
+    color: orangered;
+    transition: 400ms ease-out;
+  }
+  .swiper {
+    width: 100% !important;
+    padding: 20px 0 20px 0;
+    max-width: 100%;
+  }
+  .rev_each {
+    backdrop-filter: blur(20px);
+    width: 300px !important;
+    height: 400px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  .we_jhave_child {
+    width: 100%;
+  }
+  .reviews__parents {
+    text-align: center;
+  }
+  .colorIT {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form .colorIT h3 {
+    color: orangered;
+    animation: Parfume 1s infinite ease-out;
+    margin-bottom: 0;
+    font-size: 22px;
+    width: 300px !important;
+    text-align: center;
+  }
+  .reviews_child {
+    flex-direction: column;
+  }
+  .rev_each {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .child_why h1 {
+    width: 100% !important;
+    border-radius: 0%;
+  }
+  .experience_it p{
+    width: 100%;
+    border-radius: 0%;
+  }
+}
+
+@media only screen and (max-width:450px){
+  .colorIT{
+    flex-direction: column;
+  }
+  .child_why{
+    padding: 0;
+  }
+  .icons{
+    flex-direction: column;
+  }
+  .icons img{
+    width: 100%;
+    height: 100%;
+  }
+}

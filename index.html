@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bazzare</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="parent">
+    <div class="parent_lamda">
+      <a data-aos="fade-up" href="https://api.whatsapp.com/send?phone=0666561878&text=مرحباً" target="_blank">
+        <p>للطلب عبر الواتساب إضغط هنا</p>
+      </a>
+    </div>
+    <div class="child">
+      <p>ضروري تخسر بزاف د الفلوس باش تشري عطر أصلي ؟</p>
+      <div class="child_why">
+        <h1>
+          طبعاً لا...ذاكشي علاش <span>Bazzare Al Ghalia</span> جابت لك
+          <br />
+          عطور فاخرة شبيهة للأصليّة بنسبة 100%
+        </h1>
+      </div>
+      <p>و بأقل ثمن على الصعيد الوطني</p>
+      <div class="btn_top">
+        <a href="#target">
+          <button>إظغط هنا للطلب</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="experience_it">
+    <p data-aos="fade-up" data-aos-duration="500">
+      عند تجربة عطورنا، العطور الأصلية الباهظة الثمن
+      <br />
+      مابقاتش غتبانليك شي حاآآآآآآجة!!!
+    </p>
+    <div class="icons">
+      <div class="a_a" data-aos="fade-up">
+        <img style="max-width: 200;" src="./icons/fastdelivering.png" width="200" height="200" alt="" />
+        <span>
+          شحن سريع و مجاني
+        </span>
+      </div>
+      <div class="a_a" data-aos="fade-up">
+        <img style="max-width: 200;" src="./icons/qa.png" width="200" height="200" alt="" />
+        <span>
+          جودة عالية و مضمونة
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="reviews__parents">
+    <h1 data-aos="fade-up" data-aos-duration="500">أنت على وشك اكتشاف نسمات غير متوقعة في مجال العطور الفاخرة</h1>
+    <p data-aos="fade-up">
+      عطور <span id="ghalia">Ghalia Al Bazzar</span> غادي تعوض العطور الأصلية الغالية و ماغاديش تلاحظ
+      الفرق...
+    </p>
+    <h1 data-aos="fade-up" data-aos-duration="500" id="arg">الدليل هو تجارب الزبناء</h1>
+    <div class="reviews_child">
+      <div class="rev_each revA">
+      </div>
+      <div class="rev_each revB">
+      </div>
+      <div class="rev_each revC">
+      </div>
+      <div class="rev_each revD">
+      </div>
+    </div>
+    <div data-aos="fade-up" data-aos-duration="500" class="btn_top sliders">
+      <a href="#target">
+        <button>إظغط هنا للطلب</button>
+      </a>
+    </div>
+  </div>
+  <div class="we_jhave">
+    <h1 data-aos="fade-up" data-aos-duration="500">
+      عندنا أكثر من 100 عطر نسائي و رجالي متميز الأكثر طلبا...ما عليك غير
+      تختار أو توصلك تال باب دار
+    </h1>
+    <div class="we_jhave_child">
+    </div>
+  </div>
+  <div class="forum">
+    <div class="child_forum">
+      <form data-aos="fade-up" id="request-form">
+        <div class="colorIT">
+          <h3>parfume(X2) = 285DH*</h3>
+          <p>الكمّية محدودة*</p>
+        </div>
+        <div id="target">
+          <input required type="text" name="Name" id="Name" placeholder="الإسم الكامل" />
+        </div>
+        <div>
+          <input required type="tel" name="Phone" id="Phone" placeholder="رقم الهاتف" />
+        </div>
+        <div>
+          <input required type="text" name="City" id="City" placeholder="المدينة" />
+        </div>
+        <div>
+          <input required type="number" name="Quantity" id="Quantity" placeholder="الكمية" />
+        </div>
+        <div>
+          <input required type="hidden" name="Date" id="Date" />
+        </div>
+        <button>تأكيد الطلب</button>
+      </form>
+    </div>
+  </div>
+  <div data-aos="fade-up" data-aos-duration="500" class="process">
+    <div class="process_child">
+      <div>
+        <img src="./icons/forum.png" width="100%" height="100%" alt="" />
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h2>> الشحن > سياسة الخصوصية > شروط الاستخدام</h2>
+  </footer>
+  <script>
+    AOS.init();
+  </script>
+<script type='text/javascript'>
+    var deltaDate = new Date();
+    const hours = deltaDate.getHours();
+    const minutes = deltaDate.getMinutes();
+    const seconds = deltaDate.getSeconds();
+    var jHandleDate = deltaDate.toLocaleDateString().substring(0, 10) + " " + "*******" + hours + ":" + minutes + ":" + seconds;
+    $('#Date').val(jHandleDate);
+  </script>
+  <script type="text/javascript" src="./Js/container.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 60,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+</body>
+
+</html>
