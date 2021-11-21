@@ -219,7 +219,7 @@
             <input type="hidden" name="Date" id="Date" />
           </div>
           <div>
-            <button>تأكيد الطّــلب</button>
+            <button id="addToCartButton">تأكيد الطّــلب</button>
           </div>
         </form>
       </div>
@@ -246,8 +246,14 @@
     <script type="text/javascript" src="./Js/container.js"></script>
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
+    <script>
+      fbq("track", "Leads", { currency: "USD", value: 30.0 });
+    </script>
+    <script type="text/javascript">
+      $("#$addToCartButton").click(function () {
+        fbq("track", "Purchase", { currency: "USD", value: 30.0 });
+      });
+    </script>
     <script>
       const getwindowSize = window.innerWidth;
 
