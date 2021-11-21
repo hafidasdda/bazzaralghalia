@@ -137,7 +137,7 @@
         <div #swiperRef="" class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <img src="./Images/reviews/7.jpeg"  />
+              <img src="./Images/reviews/7.jpeg" />
             </div>
             <div class="swiper-slide">
               <img src="./Images/reviews/cc.jpeg" />
@@ -236,8 +236,10 @@
 
     <!-- Initialize Swiper -->
     <script>
+      const getwindowSize = window.innerWidth;
+
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
+        slidesPerView: getwindowSize <= "700" ? 1 : 3,
         centeredSlides: true,
         spaceBetween: 10,
         autoplay: {
