@@ -330,6 +330,8 @@ form{
   .main_home_hero img{
     width: 100% !important;
     object-fit: cover;
+    height: 400px;
+    position: relative;
   }
   .exception_child,.proof_child,.services_child{
     width: 100%;
@@ -342,5 +344,10 @@ form{
   }
   .services{
     text-align: center;
+  }
+  .swiper-slide {
+    width: 340px !important;
+    height: 400px;
+    object-fit: cover;
   }
 }
