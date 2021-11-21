@@ -330,7 +330,7 @@ form {
   .main_home_hero img {
     width: 100% !important;
     object-fit: cover;
-    height: 400px;
+    height: 350px;
     position: relative;
   }
   .exception_child,
