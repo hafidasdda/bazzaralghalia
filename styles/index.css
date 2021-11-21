@@ -10,7 +10,7 @@ body {
   direction: rtl;
   overflow-x: hidden;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 .main_home_hero {
@@ -235,7 +235,7 @@ button:hover {
 }
 .each_services img {
   object-fit: cover;
-  filter:drop-shadow(2px 2px 2px #000)
+  filter: drop-shadow(2px 2px 2px #000);
 }
 .forum {
   width: 100%;
@@ -281,22 +281,22 @@ button:hover {
   color: white;
   font-weight: bold;
 }
-.forum p{
+.forum p {
   text-align: center;
   font-weight: bold;
   color: #0dc7ff;
   margin: 0;
-  animation:DoubleProduct infinite ease-out 1s;
+  animation: DoubleProduct infinite ease-out 1s;
 }
 @keyframes DoubleProduct {
-  from{
-    transform: scale(.9);
+  from {
+    transform: scale(0.9);
   }
-  to{
+  to {
     transform: scale(1);
   }
 }
-.forum h1{
+.forum h1 {
   text-align: center;
 }
 form button {
@@ -308,41 +308,43 @@ form button {
   border: 2px solid white;
   transition: 400ms ease-in-out;
 }
-form button:focus{
+form button:focus {
   box-shadow: inset 0 7px 7px 0 #864319;
 }
-form button:hover{
+form button:hover {
   transform: scale(1);
 }
-form{
+form {
   margin-top: 10px;
   text-align: center;
 }
 @media only screen and (max-width: 700px) {
-  .main_home_hero{
+  .main_home_hero {
     height: 100%;
     padding: 20px 0 20px 0;
   }
-  .main_home_hero button{
+  .main_home_hero button {
     position: relative;
     left: 20px;
   }
-  .main_home_hero img{
+  .main_home_hero img {
     width: 100% !important;
     object-fit: cover;
     height: 400px;
     position: relative;
   }
-  .exception_child,.proof_child,.services_child{
+  .exception_child,
+  .proof_child,
+  .services_child {
     width: 100%;
     flex-direction: column;
     text-align: center;
   }
-  .main_home_hero_child{
+  .main_home_hero_child {
     flex-direction: column-reverse;
     height: 100%;
   }
-  .services{
+  .services {
     text-align: center;
   }
   .swiper-slide {
