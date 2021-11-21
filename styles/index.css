@@ -353,3 +353,13 @@ form {
     object-fit: cover;
   }
 }
+/*
+<script>
+      fbq("track", "Leads", { currency: "USD", value: 30.0 });
+    </script>
+    <script type="text/javascript">
+      $("#$addToCartButton").click(function () {
+        fbq("track", "Leads", { currency: "USD", value: 30.0 });
+      });
+    </script>
+*/
